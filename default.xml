@@ -3,5 +3,5 @@
   <remote fetch="https://github.com/jusa/" name="sailfish-policy" revision="master"/>
   <remote fetch="https://github.com/mer-hybris/" name="hybris-patches" revision="hybris-sony-aosp-6.0.1_r80-20170902"/>
   <project path="bionic" name="android_bionic" remote="hybris-patches"/>
-  <project name="sailfish-policy" path="device/sailfish/policy" revision="5ba9dfed45aff851f8e49a1e53e117c42741aaaa" remote="sailfish-policy" upstream="master"/>
+  <project name="sailfish-policy" path="device/sailfish/policy" remote="sailfish-policy" upstream="master"/>
 </manifest>
