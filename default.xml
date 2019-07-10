@@ -5,5 +5,5 @@
 
   <project path="bionic" name="android_bionic" remote="hybris-patches"/>
   <project path="device/sailfish/policy" name="sailfish-policy" remote="sailfish-policy" revision="master"/>
-  <project path="device/sony/sepolicy" name="external-sepolicy" remote="sailfish-policy" revision="sailfish"/>
+  <project path="external/sepolicy" name="external-sepolicy" remote="sailfish-policy" revision="sailfish"/>
 </manifest>

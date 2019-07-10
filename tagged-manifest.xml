@@ -3,5 +3,5 @@
   <remote fetch="https://github.com/jusa/sailfish-policy/" name="sailfish-policy" revision="master"/>
 
   <project name="sailfish-policy" path="device/sailfish/policy" revision="5ba9dfed45aff851f8e49a1e53e117c42741aaaa" remote="sailfish-policy" upstream="master"/>
-  <project name="external-sepolicy" path="device/sony/sepolicy" remote="sailfish-policy" revision="0a59c0ce657df344891d8258b1b0d1efd792f38f" upstream="sailfish"/>
+  <project name="external-sepolicy" path="external/sepolicy" remote="sailfish-policy" revision="0a59c0ce657df344891d8258b1b0d1efd792f38f" upstream="sailfish"/>
 </manifest>
