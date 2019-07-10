@@ -2,6 +2,8 @@
 <manifest>
   <remote fetch="https://github.com/jusa/" name="sailfish-policy" revision="master"/>
   <remote fetch="https://github.com/mer-hybris/" name="hybris-patches" revision="hybris-sony-aosp-6.0.1_r80-20170902"/>
+
   <project path="bionic" name="android_bionic" remote="hybris-patches"/>
-  <project name="sailfish-policy" path="device/sailfish/policy" remote="sailfish-policy" upstream="master"/>
+  <project path="device/sailfish/policy" name="sailfish-policy" remote="sailfish-policy" revision="master"/>
+  <project path="device/sony/sepolicy" name="external-sepolicy" remote="sailfish-policy" revision="sailfish"/>
 </manifest>
