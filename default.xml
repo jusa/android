@@ -1,3 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote fetch="https://github.com/mer-hybris/" name="hybris-patches" revision="hybris-sony-aosp-6.0.1_r80-20170902"/>
+  <project path="bionic" name="android_bionic" remote="hybris-patches"/>
+  <project path="kernel/sony/msm" name="android_kernel_sony_msm" remote="hybris-patches"/>
 </manifest>
